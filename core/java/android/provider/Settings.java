@@ -7125,6 +7125,17 @@ public final class Settings {
         public static final String QS_AUTO_ADDED_TILES = "qs_auto_tiles";
 
         /**
+         * Beginning of Pure Secure Settings Additions
+         * @hide
+         */
+
+        /**
+         * Option to display the ADB notification.
+         * @hide
+         */
+        public static final String ADB_NOTIFICATION = "adb_notification";
+
+        /**
          * This are the settings to be backed up.
          *
          * NOTE: Settings are backed up and restored in the order they appear
